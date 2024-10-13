@@ -1,0 +1,50 @@
+public class Main {
+    public static void main(String[] args) {
+        Array numbers = new Array(4);
+        numbers.insert(1);
+        numbers.insert(2);
+        numbers.insert(3);
+        numbers.removeAt(2);
+        numbers.removeAt(0);
+        System.out.println(numbers.getLength());
+        numbers.insert(1);
+        numbers.insert(2);
+        numbers.insert(3);
+        numbers.insert(3);
+        numbers.insert(3);
+        numbers.removeAt(2);
+        numbers.removeAt(0);
+        System.out.println(numbers.getLength());
+        numbers.print();
+        numbers.insert(1);
+        numbers.insert(2);
+        numbers.insert(3);
+        numbers.insert(4);
+        numbers.insert(5);
+        numbers.insert(6);
+        numbers.insert(7);
+        numbers.insert(8);
+        numbers.insert(9);
+        numbers.insert(10);
+        System.out.println("index where 9 is : " + numbers.indexOf(9));
+        System.out.println("9th item is : " + numbers.getItem(99));
+        numbers.removeAt(2);
+        numbers.removeAt(0);
+        numbers.print();
+        numbers.insert(1);
+        numbers.insert(2);
+        numbers.insert(3);
+        numbers.insert(4);
+        numbers.insert(5);
+        numbers.insert(6);
+        numbers.insert(7);
+        numbers.insert(8);
+        numbers.insert(9);
+        numbers.insert(10);
+        numbers.print();
+        numbers.removeAt(2);
+        numbers.removeAt(0);
+        numbers.removeAt(2);
+        numbers.removeAt(4);
+    }
+}
