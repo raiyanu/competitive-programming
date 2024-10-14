@@ -1,5 +1,9 @@
 # competitive-programming
 
+### Pending
+
+- [ ] leetcode-121BestTimeToBuyAndSellStock.js(issue:unoptimizied + Leetcode Time Limit Exceeded )
+
 competitive programming
 
 - [ ] Learning Java Programming language from linkedin learning path course
@@ -11,7 +15,7 @@ competitive programming
 - [x] 1. Two Sum (Easy, 15 mins) (Took 45 mins)
 - [x] 2. Valid Parentheses (Easy, 20 mins) (Took 45 mins)
 - [ ] 3. Merge Two Sorted Lists (Easy, 20 mins)
-- [ ] 4. Best Time to Buy and Sell Stock (Easy, 20 mins)
+- [x] 4. Best Time to Buy and Sell Stock (Easy, 20 mins)
 - [ ] 5. Valid Palindrome (Easy, 15 mins)
 - [ ] 6. Invert Binary Tree (Easy, 15 mins)
 - [ ] 7. Valid Anagram (Easy, 15 mins)
@@ -258,4 +262,3 @@ competitive programming
 
 - [ ] 1. N-Queens (Hard, 40 mins)
 - [ ] 2. Smallest Range Covering Elements from K Lists (Hard, 40 mins)
-
