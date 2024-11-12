@@ -1,27 +1,29 @@
+import java.util.ArrayList;
 import java.util.NoSuchElementException;
 
 public class LinkedList {
+
     private Node first;
     private Node last;
 
+    public void addFirst(int value) {
+        var node = new Node(value);
+        if (isEmpty()) first = last = node;
+        node.next = first;
+        first = node;
+    }
+
     public void addLast(int value) {
         var node = new Node(value);
-        if (first == null) first = last = node;
+        if (isEmpty()) first = last = node;
         else {
             last.next = node;
             last = node;
         }
     }
 
-    public void addFirst(int value) {
-        var node = new Node(value);
-        if (first == null) first = last = node;
-        node.next = first;
-        first = node;
-    }
-
     public void deleteFirst() {
-        if ( isEmpty()) {
+        if (isEmpty()) {
             first = last = null;
             throw new NoSuchElementException();
         }
@@ -31,20 +33,31 @@ public class LinkedList {
         return;
     }
 
-    public boolean isEmpty() {
-        return first == null || first == last ;
+    public void deleteLast() {
+        if (isEmpty()) {
+            first = last = null;
+            throw new NoSuchElementException();
+        }
+        var node = getPrevious(last);
+        if (node == null) {
+            first = last = null;
+            return;
+        }
+        last = node;
+        last.next = null;
+        return;
     }
 
-    public Object deleteLast() {
-        var node = first;
-        while (node.next != null) {
-            if (node.next == last) {
-                break;
-            }
-            node = node.next;
-        };
-        node.next = node.next.next;
-        last = node.next;
+    public boolean isEmpty() {
+        return first == null;
+    }
+
+    private Node getPrevious(Node node) {
+        var current = first;
+        while (current != null) {
+            if (current.next == node) return current;
+            current = current.next;
+        }
         return null;
     }
 
@@ -68,8 +81,12 @@ public class LinkedList {
 
     public void printAll() {
         var node = first;
+        if (first == last) {
+            System.out.println(first.value);
+            return;
+        }
         while (node != null) {
-            System.out.print(" " + node.value);
+            System.out.print(node.value + " ");
             node = node.next;
         }
         System.out.println();
@@ -79,7 +96,22 @@ public class LinkedList {
         return first.value;
     }
 
+    public ArrayList<Integer> toArray() {
+        if (isEmpty()) {
+            return new ArrayList<Integer>();
+        }
+
+        ArrayList<Integer> array = new ArrayList<Integer>();
+        var a = first;
+        while (a.next != null) {
+            array.addLast(a.value);
+            a = a.next;
+        }
+        return array;
+    }
+
     private class Node {
+
         private int value;
         private Node next;
 
@@ -87,4 +119,5 @@ public class LinkedList {
             this.value = value;
         }
     }
+
 }
