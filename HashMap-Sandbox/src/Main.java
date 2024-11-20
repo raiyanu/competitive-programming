@@ -1,7 +1,5 @@
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -27,5 +25,42 @@ public class Main {
             set.add(ch);
         }
         return Character.MIN_VALUE;
+    }
+}
+
+class HashyMap {
+    private LinkedList<Entry>[] HashTable;
+    private Object e;
+
+    public HashyMap(int capacity) {
+        this.HashTable = new LinkedList[capacity];
+    }
+
+    public void put(int key, String value) {
+        int index = hash(key);
+        if (HashTable[index] == null)
+            HashTable[index] = new LinkedList<>();
+        Entry e = new Entry(key,value)
+
+    }
+
+    private int hash(int key) {
+        return key % HashTable.length;
+    }
+
+    public int get(int key) {
+        for (LinkedList L : HashTable)
+            L.forEach(o -> System.out.println(o));
+        return 0;
+    }
+
+    static class Entry {
+        int  key;
+        String value;
+
+        public Entry(int key, String value) {
+            this.key = key;
+            this.value = value;
+        }
     }
 }
