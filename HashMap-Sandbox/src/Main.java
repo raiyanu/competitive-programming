@@ -1,11 +1,37 @@
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Started");
-        System.out.println(FindFirstNonRepeatingChar("TThHe gGoogle Pixel Love"));
-        System.out.println(FindFirstRepeatingChar("The Google Pixel Love"));
+//        System.out.println(FindFirstNonRepeatingChar("TThHe gGoogle Pixel Love"));
+//        System.out.println(FindFirstRepeatingChar("The Google Pixel Love"));
+        HashyMap map = new HashyMap(5);
+        map.put(1, "One");
+        map.put(1, "One++");
+        map.put(1, "Another One");
+        map.put(2, "Two");
+        map.put(3, "Three");
+        map.put(4, "Four");
+        map.put(5, "Five");
+        map.put(6, "Six");
+        map.put(7, "Seven");
+        map.put(8, "Eight");
+        map.put(9, "Nine");
+        map.put(10, "Ten");
+        map.printAll();
+        System.out.println("========");
+
+        map.remove(3);
+        map.remove(2);
+        map.printAll();
+        System.out.println("========");
+        System.out.println("Entry for key 5: " + map.get(5));
+        System.out.println("Entry for key 6: " + map.get(6));
+        System.out.println("Entry for key 12: " + map.get(12));
     }
 
     public static char FindFirstNonRepeatingChar(String str) {
@@ -28,39 +54,4 @@ public class Main {
     }
 }
 
-class HashyMap {
-    private LinkedList<Entry>[] HashTable;
-    private Object e;
 
-    public HashyMap(int capacity) {
-        this.HashTable = new LinkedList[capacity];
-    }
-
-    public void put(int key, String value) {
-        int index = hash(key);
-        if (HashTable[index] == null)
-            HashTable[index] = new LinkedList<>();
-        Entry e = new Entry(key,value)
-
-    }
-
-    private int hash(int key) {
-        return key % HashTable.length;
-    }
-
-    public int get(int key) {
-        for (LinkedList L : HashTable)
-            L.forEach(o -> System.out.println(o));
-        return 0;
-    }
-
-    static class Entry {
-        int  key;
-        String value;
-
-        public Entry(int key, String value) {
-            this.key = key;
-            this.value = value;
-        }
-    }
-}
