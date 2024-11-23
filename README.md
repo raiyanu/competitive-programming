@@ -3,6 +3,7 @@
 ### Pending
 
 - [ ] leetcode-121BestTimeToBuyAndSellStock.js(issue:unoptimizied + Leetcode Time Limit Exceeded )
+- [ ] leetcode-LongestCommonPrefix(issue: unable to produce any approach to solve + easy but confusing)
 
 competitive programming
 
@@ -16,7 +17,7 @@ competitive programming
 - [x] 2. Valid Parentheses (Easy, 20 mins) (Took 45 mins)
 - [ ] 3. Merge Two Sorted Lists (Easy, 20 mins)
 - [x] 4. Best Time to Buy and Sell Stock (Easy, 20 mins)
-- [ ] 5. Valid Palindrome (Easy, 15 mins)
+- [x] 5. Valid Palindrome (Easy, 15 mins)
 - [ ] 6. Invert Binary Tree (Easy, 15 mins)
 - [ ] 7. Valid Anagram (Easy, 15 mins)
 - [ ] 8. Binary Search (Easy, 15 mins)

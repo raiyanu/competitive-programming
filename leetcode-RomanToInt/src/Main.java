@@ -30,24 +30,15 @@ class Solution {
 
     public int romanToInt(String s) {
         int result = 0;
-        for (int i = 0; i < s.length(); i++) {
-            if (s.length() - 1 == i) {
-                result += map.get(s.charAt(i));
-            } else {
-                if (s.charAt(i) == 'I' && (s.charAt(i + 1) == 'V' || s.charAt(i + 1) == 'X')) {
-                    result += s.charAt(i + 1) == 'V' ? 4 : 9;
-                    i++;
-                } else if (s.charAt(i) == 'X' && (s.charAt(i + 1) == 'L' || s.charAt(i + 1) == 'C')) {
-                    result += s.charAt(i + 1) == 'L' ? 40 : 90;
-                    i++;
-                } else if (s.charAt(i) == 'C' && (s.charAt(i + 1) == 'D' || s.charAt(i + 1) == 'M')) {
-                    result += s.charAt(i + 1) == 'D' ? 400 : 900;
-                    i++;
-                } else {
-                    result += map.get(s.charAt(i));
-                }
-            }
-        }
+        for (int i = 0; i < s.length(); i++)
+            if (s.length() - 1 == i) result += map.get(s.charAt(i));
+            else if (s.charAt(i) == 'I' && (s.charAt(i + 1) == 'V' || s.charAt(i + 1) == 'X'))
+                result += s.charAt(1 + i++) == 'V' ? 4 : 9;
+            else if (s.charAt(i) == 'X' && (s.charAt(i + 1) == 'L' || s.charAt(i + 1) == 'C'))
+                result += s.charAt(1 + i++) == 'L' ? 40 : 90;
+            else if (s.charAt(i) == 'C' && (s.charAt(i + 1) == 'D' || s.charAt(i + 1) == 'M'))
+                result += s.charAt(1 + i++) == 'D' ? 400 : 900;
+            else result += map.get(s.charAt(i));
         System.out.print("myInt: " + result + " \t");
         return result;
     }
