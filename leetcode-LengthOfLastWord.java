@@ -19,12 +19,7 @@ class Solution {
         s = s.trim();
         if(s.length() == 1) return 1;
         if(s.length() == 0) return 0;
-        int position = 0;
-        for (int i = s.length() - 1; i >= 0; i--) {
-            if (s.charAt(i) == ' ') {
-                return s.length() - i - 1;
-            }
-        }
+        for (int i = s.length() - 1; i >= 0; i--) if (s.charAt(i) == ' ') return s.length() - i - 1;
         return s.length();
     }
 }
