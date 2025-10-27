@@ -263,3 +263,209 @@ competitive programming
 
 - [ ] 1. N-Queens (Hard, 40 mins)
 - [ ] 2. Smallest Range Covering Elements from K Lists (Hard, 40 mins)
+
+## LOGS
+
+### 2025-10-27 — **Implemented maxSubArraySum Function for Windowed Sums**
+
+**Commit:** `eefc7a4`
+**File:** `maxSubArraySum.ts`
+
+---
+
+### 2025-10-27 — **Code Refactoring in QuickSort**
+
+**Commit:** `fa04f3a`
+**File:** `quickSort.ts`
+
+---
+
+### 2025-10-27 — **Added QuickSort Function with Example Usage**
+
+**Commit:** `9b826fe`
+**File:** `quickSort.ts`
+
+---
+
+### 2025-10-24 — **Solved Filter Duplicates from Sorted Array (Multi-Pointer Pattern)**
+
+**Commit:** `b9c34e7`
+**File:** `countUniqueValue.ts`
+
+---
+
+### 2025-10-22 — **Solved Find Zero Sum Problem (Two-Pointer Pattern)**
+
+**Commit:** `e38a9f8`
+**File:** `SumZero.ts`
+
+---
+
+### 2025-10-22 — **Optimized Anagram Function for Efficiency**
+
+**Commit:** `017ac47`
+**File:** `AnagramsChallenge.ts`
+
+---
+
+### 2025-10-22 — **Solved Anagrams Challenge**
+
+**Commit:** `883d12e`
+**File:** `AnagramsChallenge.ts`
+
+---
+
+### 2025-10-22 — **Solved Frequency Comparison for Squared Values**
+
+**Commit:** `651b154`
+**File:** `SquaredFrequencyMatch.js`
+
+---
+
+### 2024-12-31 — **Challenge of Life**
+
+**Commit:** `aafb961`
+**File:** `FindingLagrangeFourSquare.js`
+
+---
+
+### 2024-11-24 — **Progressing on Anagram Problem (Java)**
+
+**Commit:** `0f0ed74`, `cdb7e92`
+**File:** `leetcode-IsAnagram.java`
+
+---
+
+### 2024-11-23 — **Solved “Length of Last Word” Leetcode Problem**
+
+**Commits:**
+
+* `f32cf87` — Solved another one easy problem
+* `09bc312` — Slight code adjustment
+  **File:** `leetcode-LengthOfLastWord.java`
+
+---
+
+### 2024-11-23 — **Unfinished Leetcode Problem + Updated Readme**
+
+**Commit:** `dc9dee7`
+**Files:**
+
+* `README.md`
+* `leetcode-LongestCommonPrefix/src/Main.java`
+* `leetcode-RomanToInt/src/Main.java`
+
+---
+
+### 2024-11-23 — **RomanToInt Problem Solved (O(n), 4ms Runtime)**
+
+**Commit:** `05afc2b`
+**File:** `leetcode-RomanToInt/src/Main.java`
+
+---
+
+### 2024-11-21 — **Custom HashTable Completed**
+
+**Commit:** `7a9d1b7`
+**Files:**
+
+* `HashMap-Sandbox/src/HashyMap.java`
+* `HashMap-Sandbox/src/Main.java`
+
+---
+
+### 2024-11-20 — **Custom HashTable Work in Progress**
+
+**Commit:** `c9cca73`
+**File:** `HashMap-Sandbox/src/Main.java`
+
+---
+
+### 2024-11-16 — **Implemented HashMap, Queue, and PriorityQueue**
+
+**Commit:** `28f90bf`
+**Highlights:**
+
+* Custom HashMap, PriorityQueue, and Queue implementations
+
+---
+
+### 2024-11-14 — **Stack Completed**
+
+**Commit:** `447623a`
+**File:** `Stack-Sandbox/src/parenthesisValidator.java`
+
+---
+
+### 2024-10-16 — **Added Binary Search in JavaScript + Yarn Setup**
+
+**Commit:** `e7759db`
+**File:** `BinarySearch.js`
+
+---
+
+### 2024-10-14 — **Solved Two Problems**
+
+**Commit:** `fa990b3`
+**Files:**
+
+* `leetcode-121BestTimeToBuyAndSellStock.js`
+* `leetcode-1417ReformatTheString.js`
+
+---
+
+### 2024-10-13 — **Solved 4 More Problems**
+
+**Commit:** `b5c9ebc`
+**Files:**
+
+* `leetcode-1160.js`
+* `leetcode-389FindTheDifference.js`
+* `leetcode-392IsSubsequence.js`
+* `leetcode-RansomNote.js`
+
+---
+
+### 2024-08-25 — **Day 6–8: Completed 3 Leetcode Problems**
+
+**Commit:** `b47321d`
+**Examples:**
+
+* `leetcode-FizzBuzz`
+* `leetcode-MiddleOfTheLinkedList`
+* `leetcode-MergeSortedLists`
+
+---
+
+### 2024-08-09 — **Solved 2 Problems and Updated Readme**
+
+**Commit:** `5da1fbe`
+**Highlights:** Java learning, Stack implementation, File handling, and Leetcode setup
+
+---
+
+### 2024-08-01 — **Day 4–5: OOP Concepts & Small Projects**
+
+**Commit:** `31e123d`
+**Focus:** Java classes, Array handling, OOP design
+
+---
+
+### 2024-07-26 — **Day 3: Arrays and ArrayLists**
+
+**Commit:** `3795642`
+**Topics:** Java basics, array manipulation, salary calculator
+
+---
+
+### 2024-07-20 — **Day 1: Started Java Basics**
+
+**Commit:** `63cb05c`
+**File:** `SimpleCalculatorMain.java`
+
+---
+
+### 2024-07-20 — **Initial Commit**
+
+**Commit:** `4b7a927`
+**Files:** `LICENSE`, `README.md`
