@@ -3,8 +3,8 @@
  * @param arr Array<Number>
  * @param subSize Number
  * @returns Number
- * Time Complexity: O(n)
- * Space Complexity: O(n)
+ * Time Complexity: O(n * k) --> [n = arr.length, k = subSize]
+ * Space Complexity: O(1)
 */
 function maxSubArraySum(arr: Array<number>, subSize: number): number | void {
     if (arr.length < subSize) return;
