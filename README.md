@@ -285,6 +285,20 @@ competitive programming
 
 ## LOGS
 
+### 2026-09-25 — **feat: add solution for LeetCode 189 Rotate Array**
+
+**Commit:** `739bdb3`
+**File:** `leetcode-189RotateArray.js`
+
+---
+
+### 2025-11-04 — **Revise complexity comments in maxSubArraySum**
+
+**Commit:** `8a72297`
+**File:** `maxSubArraySum.ts`
+
+---
+
 ### 2025-10-27 — **Implemented maxSubArraySum Function for Windowed Sums**
 
 **Commit:** `eefc7a4`
