@@ -264,6 +264,25 @@ competitive programming
 - [ ] 1. N-Queens (Hard, 40 mins)
 - [ ] 2. Smallest Range Covering Elements from K Lists (Hard, 40 mins)
 
+### Other Completed Problems
+
+- [x] 26. Remove Duplicates from Sorted Array (Easy)
+- [x] 27. Remove Element (Easy)
+- [x] 58. Length of Last Word (Easy)
+- [x] 80. Remove Duplicates from Sorted Array II (Medium)
+- [x] 88. Merge Sorted Array (Easy)
+- [x] 175. Combine Two Tables (Easy)
+- [x] 389. Find the Difference (Easy)
+- [x] 392. Is Subsequence (Easy)
+- [x] 412. Fizz Buzz (Easy)
+- [x] 1342. Number of Steps to Reduce a Number to Zero (Easy)
+- [x] 1417. Reformat The String (Easy)
+- [x] 1480. Running Sum of 1d Array (Easy)
+- [x] 1672. Richest Customer Wealth (Easy)
+- [x] 1848. Minimum Distance to the Target Element (Easy)
+- [x] 2235. Add Two Integers (Easy)
+- [x] 2236. Root Equals Sum of Children (Easy)
+
 ## LOGS
 
 ### 2025-10-27 — **Implemented maxSubArraySum Function for Windowed Sums**
