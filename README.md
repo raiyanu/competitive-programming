@@ -2,7 +2,7 @@
 
 ### Pending
 
-- [ ] leetcode-121BestTimeToBuyAndSellStock.js(issue:unoptimizied + Leetcode Time Limit Exceeded )
+- [x] leetcode-121BestTimeToBuyAndSellStock.js(issue:unoptimizied + Leetcode Time Limit Exceeded )
 - [ ] leetcode-LongestCommonPrefix(issue: unable to produce any approach to solve + easy but confusing)
 
 competitive programming
@@ -30,11 +30,11 @@ competitive programming
 - [ ] 2. Linked List Cycle (Easy, 20 mins)
 - [ ] 3. Implement Queue using Stacks (Easy, 20 mins)
 - [ ] 4. First Bad Version (Easy, 20 mins)
-- [ ] 5. Ransom Note (Easy, 15 mins)
+- [x] 5. Ransom Note (Easy, 15 mins)
 - [ ] 6. Climbing Stairs (Easy, 20 mins)
 - [ ] 7. Longest Palindrome (Easy, 20 mins)
 - [ ] 8. Reverse Linked List (Easy, 20 mins)
-- [ ] 9. Majority Element (Easy, 20 mins)
+- [x] 9. Majority Element (Easy, 20 mins)
 
 ### Week 3
 
@@ -44,7 +44,7 @@ competitive programming
 - [ ] 4. Maximum Depth of Binary Tree (Easy, 15 mins)
 - [ ] 5. Contains Duplicate (Easy, 15 mins)
 - [ ] 6. Meeting Rooms (Easy, 20 mins)
-- [ ] 7. Roman to Integer (Easy, 20 mins)
+- [x] 7. Roman to Integer (Easy, 20 mins)
 - [ ] 8. Backspace String Compare (Easy, 15 mins)
 - [ ] 9. Counting Bits (Easy, 15 mins)
 
@@ -157,7 +157,7 @@ competitive programming
 - [ ] 1. Swap Nodes in Pairs (Medium, 25 mins)
 - [ ] 2. Path Sum II (Medium, 25 mins)
 - [ ] 3. Longest Consecutive Sequence (Medium, 30 mins)
-- [ ] 4. Rotate Array (Medium, 25 mins)
+- [x] 4. Rotate Array (Medium, 25 mins)
 - [ ] 5. Odd Even Linked List (Medium, 25 mins)
 - [ ] 6. Decode String (Medium, 30 mins)
 
@@ -340,8 +340,8 @@ competitive programming
 
 **Commits:**
 
-* `f32cf87` — Solved another one easy problem
-* `09bc312` — Slight code adjustment
+- `f32cf87` — Solved another one easy problem
+- `09bc312` — Slight code adjustment
   **File:** `leetcode-LengthOfLastWord.java`
 
 ---
@@ -351,9 +351,9 @@ competitive programming
 **Commit:** `dc9dee7`
 **Files:**
 
-* `README.md`
-* `leetcode-LongestCommonPrefix/src/Main.java`
-* `leetcode-RomanToInt/src/Main.java`
+- `README.md`
+- `leetcode-LongestCommonPrefix/src/Main.java`
+- `leetcode-RomanToInt/src/Main.java`
 
 ---
 
@@ -369,8 +369,8 @@ competitive programming
 **Commit:** `7a9d1b7`
 **Files:**
 
-* `HashMap-Sandbox/src/HashyMap.java`
-* `HashMap-Sandbox/src/Main.java`
+- `HashMap-Sandbox/src/HashyMap.java`
+- `HashMap-Sandbox/src/Main.java`
 
 ---
 
@@ -386,7 +386,7 @@ competitive programming
 **Commit:** `28f90bf`
 **Highlights:**
 
-* Custom HashMap, PriorityQueue, and Queue implementations
+- Custom HashMap, PriorityQueue, and Queue implementations
 
 ---
 
@@ -409,8 +409,8 @@ competitive programming
 **Commit:** `fa990b3`
 **Files:**
 
-* `leetcode-121BestTimeToBuyAndSellStock.js`
-* `leetcode-1417ReformatTheString.js`
+- `leetcode-121BestTimeToBuyAndSellStock.js`
+- `leetcode-1417ReformatTheString.js`
 
 ---
 
@@ -419,10 +419,10 @@ competitive programming
 **Commit:** `b5c9ebc`
 **Files:**
 
-* `leetcode-1160.js`
-* `leetcode-389FindTheDifference.js`
-* `leetcode-392IsSubsequence.js`
-* `leetcode-RansomNote.js`
+- `leetcode-1160.js`
+- `leetcode-389FindTheDifference.js`
+- `leetcode-392IsSubsequence.js`
+- `leetcode-RansomNote.js`
 
 ---
 
@@ -431,9 +431,9 @@ competitive programming
 **Commit:** `b47321d`
 **Examples:**
 
-* `leetcode-FizzBuzz`
-* `leetcode-MiddleOfTheLinkedList`
-* `leetcode-MergeSortedLists`
+- `leetcode-FizzBuzz`
+- `leetcode-MiddleOfTheLinkedList`
+- `leetcode-MergeSortedLists`
 
 ---
 
